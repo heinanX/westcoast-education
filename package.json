@@ -1,0 +1,20 @@
+{
+  "name": "westcoast-education",
+  "version": "1.0.0",
+  "description": "Vanilla JS project for course listings, bookings, and admin course management.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx json-server --watch app/data/courses.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heinanX/westcoast-education.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heinanX/westcoast-education/issues"
+  },
+  "homepage": "https://github.com/heinanX/westcoast-education#readme"
+}
