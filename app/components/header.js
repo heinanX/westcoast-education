@@ -1,5 +1,3 @@
-const bodyElement = document.querySelector('body');
-console.log('Header script loaded!');
 const navItems = [
         {
         title: 'Home',
@@ -14,6 +12,7 @@ const navItems = [
         href: '/app/pages/dashboard/dashboard.html'
     }
 ];
+const bodyElement = document.querySelector('body');
 
 const createListItem = (title, href) => {
     let li = document.createElement('li');
