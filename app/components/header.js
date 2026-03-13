@@ -1,3 +1,5 @@
+import { createElement } from "../helpers/helpers.js";
+
 const navItems = [
         {
         title: 'Home',
@@ -15,18 +17,15 @@ const navItems = [
 const bodyElement = document.querySelector('body');
 
 const createListItem = (title, href) => {
-    let li = document.createElement('li');
-    li.classList.add('list-item');
-    let a = document.createElement('a');
-    a.textContent = title;
+    let li = createElement('li', {classes: ['list-item']});
+    let a = createElement('a', {text: title});
     a.href = href;
     li.appendChild(a);
     return li;
 }
 
 const createList = (navItems) => {
-    let ul = document.createElement('ul');
-    ul.classList.add('navbar');
+    let ul = createElement('ul', {classes: ['navbar']});
     navItems.forEach(i => {
         const li = createListItem(i.title, i.href);
         ul.appendChild(li);
@@ -34,21 +33,12 @@ const createList = (navItems) => {
     return ul;
 }
 
-const createHeaderLogo = () => {
-    let img = document.createElement('img');
-    img.classList.add('header-logo');
-    //img.src = 
-    return img;
-}
-
-const renderHeader = () => {
-    let header = document.createElement('header');
-    let nav = document.createElement('nav');
-    const img = createHeaderLogo();
+export const renderHeader = () => {
+    let header = createElement('header');
+    let nav = createElement('nav');
+    const logo = createElement('h1', {text: 'Masters.'});
     const list = createList(navItems);
     nav.appendChild(list);
-    header.append(img, nav);
+    header.append(logo, nav);
     bodyElement.prepend(header);
 }
-
-renderHeader();
