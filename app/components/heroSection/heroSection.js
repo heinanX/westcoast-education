@@ -2,11 +2,13 @@ import { createElement } from "../../helpers/helpers.js";
 
 const getParentElement = document.querySelector('main');
 export const renderHeroSection = () => {
-    const hero = createElement('section', {id: 'heroSection'});
+    const section = createElement('section', {id: 'heroSection'});
 
     let img = createElement('img');
     img.src = 'app/assets/images/heroImage.jpg';
     img.alt = 'students in a learning environment';
+
+    const overlayDiv  = createElement('div', {classes: ['overlay']});
 
     let article = createElement('article');
     let h2 = createElement('h2', {text: 'New Skills. Old Skills. Mastered.'});
@@ -16,8 +18,8 @@ export const renderHeroSection = () => {
     a.href = 'app/pages/courses/courses.html'
     
     article.append(h2, p, a);
-    hero.append(img, article);
+    section.append(img, overlayDiv, article);
 
 
-    getParentElement.prepend(hero);
+    getParentElement.prepend(section);
 }

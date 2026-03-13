@@ -1,4 +1,4 @@
-import { createElement } from "../helpers/helpers.js";
+import { createElement } from "../../helpers/helpers.js";
 
 const navItems = [
         {
@@ -27,7 +27,7 @@ const createListItem = (title, href) => {
 const createList = (navItems) => {
     let ul = createElement('ul', {classes: ['navbar']});
     navItems.forEach(i => {
-        const li = createListItem(i.title, i.href);
+        const li = createListItem(i.title.toUpperCase(), i.href);
         ul.appendChild(li);
     });
     return ul;

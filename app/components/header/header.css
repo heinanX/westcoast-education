@@ -1,0 +1,34 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    background-color: lightseagreen;
+}
+
+.navbar {
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav {
+        margin-top: 1rem;
+    }
+}
