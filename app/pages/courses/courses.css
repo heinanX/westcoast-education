@@ -1,0 +1,135 @@
+.top-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.top-banner li {
+  font-size: 1.5rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.course-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem 2rem;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 300px;
+
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px #e0e0e0;
+  overflow: hidden;
+}
+
+.course-card-header {
+  background: var(--complement);
+}
+
+.list-item-category {
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.course-card-main {
+  padding: 1rem 0.5rem 0 0.5rem;
+}
+
+.course-card-main p {
+  color: rgb(83, 83, 83);
+}
+
+.course-card-header img {
+  object-fit: cover;
+  display: block;
+}
+
+.course-card-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+@media (max-width: 665px) {
+  .course-card {
+    width: 100%;
+  }
+}
+
+.highlights-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  background-color: var(--light);
+  padding: 5rem 2rem;
+}
+
+.left-column {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.left-column img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.right-column {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.hs-pitch {
+    color: maroon;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hs-summary {
+    padding: 2rem 2rem 2rem 0;
+}
+
+.hs-courseId {
+    padding-top: 0.5rem;
+}
+
+.highlights-section h3 {
+  font-size: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.hs-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}

@@ -1,4 +1,16 @@
 :root {
+    --primary: #4A7C59;      /* forest green */
+    --secondary: #C4A35A;    /* warm sand/gold */
+    --complement: #729282;   /* deep dark green */
+
+    /* extras that pair well */
+    --background: #F5F0E8;   /* off-white parchment */
+    --text: #1E2D25;         /* near black */
+    --muted: #A8B5A0;        /* soft sage for subtle text */
+    --light: #ebeee8;        /* soft sage for subtle text */
+
+
+    
     --whiteHighlight: rgba(255, 255, 255, 0.75);
 }
 
@@ -9,6 +21,7 @@
     margin: 0;
     font-family: "Google Sans", sans-serif;
 }
+
 
 .overlay {
     position: absolute;
