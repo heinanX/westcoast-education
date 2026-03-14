@@ -7,12 +7,10 @@ renderHeader();
 const main = document.querySelector("main");
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
-console.log(id);
 
 const getData = async (num) => {
   const res = await fetch(`http://localhost:3000/courses/${num}`);
   const data = await res.json();
-  console.log(data);
   return data;
 };
 
