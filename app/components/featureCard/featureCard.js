@@ -23,9 +23,9 @@ export const featureCard = (courses, num) => {
   });
 
   const title = createElement("h3", { text: courses[num].title });
-  const courseId = createElement("p", {
-    text: `#${courses[num].courseId}`,
-    classes: ["hs-courseId"],
+  const id = createElement("p", {
+    text: `#${courses[num].id}`,
+    classes: ["hs-id"],
   });
 
   const summary = createElement("p", {
@@ -33,14 +33,14 @@ export const featureCard = (courses, num) => {
     classes: ["hs-summary"],
   });
 
-  container.append(pitch, title, courseId, summary);
+  container.append(pitch, title, id, summary);
 
   const readMoreBtn = createElement("button", {
     text: "Read More ->",
     classes: ["hs-btn"],
   });
   readMoreBtn.addEventListener("click", () => {
-    window.location.href = `../courseDetails/course-details.html?id=${courses[num].courseId}`;
+    window.location.href = `../courseDetails/course-details.html?id=${courses[num].id}`;
   });
 
   rightColumn.append(container, readMoreBtn);

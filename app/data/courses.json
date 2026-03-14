@@ -1,7 +1,7 @@
 {
     "courses": [
         {
-            "courseId": 1,
+            "id": 1,
             "title": "Web Development Fundamentals",
             "category": "Web",
             "days": 13,
@@ -12,7 +12,7 @@
             "summary": "Learn the core building blocks of the web — HTML, CSS, and JavaScript. Perfect for anyone starting their journey into web development."
         },
         {
-            "courseId": 2,
+            "id": 2,
             "title": "Graphic Design Basics",
             "category": "Design",
             "days": 10,
@@ -23,7 +23,7 @@
             "summary": "Get hands-on with design principles, typography, and color theory. Build a strong visual foundation for any creative career."
         },
         {
-            "courseId": 3,
+            "id": 3,
             "title": "Project Management",
             "category": "Management",
             "days": 6,
@@ -34,7 +34,7 @@
             "summary": "Master the essentials of planning, executing, and delivering projects on time. Ideal for team leads and aspiring project managers."
         },
         {
-            "courseId": 4,
+            "id": 4,
             "title": "UX & UI Design",
             "category": "Design",
             "days": 12,
@@ -45,7 +45,7 @@
             "summary": "Dive into user experience and interface design. Learn to create intuitive, beautiful products that users love."
         },
         {
-            "courseId": 5,
+            "id": 5,
             "title": "JavaScript Advanced",
             "category": "Web",
             "days": 18,
@@ -56,7 +56,7 @@
             "summary": "Take your JavaScript skills to the next level with async programming, design patterns, and modern ES6+ features."
         },
         {
-            "courseId": 6,
+            "id": 6,
             "title": "Data Analysis with Excel",
             "category": "Data",
             "days": 6,
@@ -67,7 +67,7 @@
             "summary": "Learn to analyze, visualize, and interpret data using Excel. A practical course for business professionals and analysts."
         },
         {
-            "courseId": 7,
+            "id": 7,
             "title": "Digital Marketing",
             "category": "Marketing",
             "days": 8,
@@ -78,7 +78,7 @@
             "summary": "Explore SEO, social media, email campaigns, and paid ads. Build a complete digital marketing strategy from scratch."
         },
         {
-            "courseId": 8,
+            "id": 8,
             "title": "Cybersecurity Essentials",
             "category": "Security",
             "days": 14,
@@ -89,7 +89,7 @@
             "summary": "Understand threats, vulnerabilities, and how to defend against them. A must-have course for anyone working in tech."
         },
         {
-            "courseId": 9,
+            "id": 9,
             "title": "Python for Beginners",
             "category": "Programming",
             "days": 22,
@@ -100,7 +100,7 @@
             "summary": "Start programming with one of the world's most popular languages. From basics to building real projects — no prior experience needed."
         },
         {
-            "courseId": 10,
+            "id": 10,
             "title": "Leadership & Communication",
             "category": "Management",
             "days": 6,
@@ -111,7 +111,7 @@
             "summary": "Develop the soft skills that make great leaders. Learn how to communicate clearly, motivate teams, and resolve conflict."
         },
         {
-            "courseId": 11,
+            "id": 11,
             "title": "Cloud Computing with AWS",
             "category": "Cloud",
             "days": 14,
@@ -122,7 +122,7 @@
             "summary": "Get started with Amazon Web Services and learn to deploy, manage, and scale applications in the cloud."
         },
         {
-            "courseId": 12,
+            "id": 12,
             "title": "React for Developers",
             "category": "Web",
             "days": 8,
@@ -133,7 +133,7 @@
             "summary": "Build modern, component-based web applications with React. Covers hooks, state management, and real-world project structure."
         },
         {
-            "courseId": 13,
+            "id": 13,
             "title": "SEO & Content Strategy",
             "category": "Marketing",
             "days": 4,
@@ -144,7 +144,7 @@
             "summary": "Learn how to rank on search engines and create content that drives traffic. Great for marketers, bloggers, and business owners."
         },
         {
-            "courseId": 14,
+            "id": 14,
             "title": "Agile & Scrum",
             "category": "Management",
             "days": 3,
@@ -155,7 +155,7 @@
             "summary": "Learn the Agile mindset and Scrum framework used by top tech teams. Practical tools for delivering better software faster."
         },
         {
-            "courseId": 15,
+            "id": 15,
             "title": "Photoshop & Illustrator",
             "category": "Design",
             "days": 12,

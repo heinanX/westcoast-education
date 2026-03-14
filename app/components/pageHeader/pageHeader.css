@@ -1,6 +1,7 @@
 .pageHeader {
     position: relative;
     height: 50vh;
+    width: 100%;
 }
 
 .pageHeader img {

@@ -2,12 +2,12 @@ import { createElement } from "../../helpers/helpers.js"
 
 
 
-export const pageHeader = (heading) => {
+export const pageHeader = (heading, image) => {
     const main = document.querySelector('main');
     const section = createElement('section', {classes: ['pageHeader']});
     
     const img = createElement('img');
-    img.src = '../../assets/images/heroImage.jpg';
+    img.src = image;
     const div = createElement('div', {classes: ['overlay']});
     
     const span = createElement('span');

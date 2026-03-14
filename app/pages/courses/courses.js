@@ -5,7 +5,7 @@ import { pageHeader } from "../../components/pageHeader/pageHeader.js";
 import { createElement } from "../../helpers/helpers.js";
 
 renderHeader();
-pageHeader("Courses.");
+pageHeader("Courses.", 'https://www.bentley.edu/sites/default/files/2025-08/r52_8594-enhanced-nr.jpeg');
 
 const main = document.querySelector("main");
 
