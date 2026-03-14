@@ -22,6 +22,14 @@
     font-family: "Google Sans", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 
 .overlay {
     position: absolute;

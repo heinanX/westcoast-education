@@ -1,8 +1,6 @@
 import { createElement } from "../../helpers/helpers.js";
 
 export const featureCard = (courses, num) => {
-  console.log("this is num: " + num);
-
   const highlightsSection = createElement("section", {
     classes: ["highlights-section"],
   });

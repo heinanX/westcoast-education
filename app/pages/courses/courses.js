@@ -42,7 +42,6 @@ const renderPopularCourses = (courses) => {
     }
   });
 
-  console.log(mostPopular);
   let num = Math.floor(Math.random() * mostPopular.length);
   const highlightsSection = featureCard(mostPopular, num);
   main.append(highlightsSection);
