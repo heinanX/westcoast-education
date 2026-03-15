@@ -4,7 +4,8 @@
   "description": "Vanilla JS project for course listings, bookings, and admin course management.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx json-server --watch app/data/courses.json"
+    "dev": "npx json-server --watch app/data/courses.json",
+    "watch": "npx tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/heinanX/westcoast-education#readme",
   "devDependencies": {
-    "json-server": "^0.17.4"
+    "json-server": "^0.17.4",
+    "typescript": "^5.9.3"
   }
 }

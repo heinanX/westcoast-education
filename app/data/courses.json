@@ -165,5 +165,23 @@
             "rating": 7.5,
             "summary": "Master Adobe's industry-standard tools for photo editing and vector graphics. From basic retouching to professional illustrations."
         }
+    ],
+    "bookings": [
+        {
+            "id": 1,
+            "courseId": 3,
+            "customerName": "Anna Svensson",
+            "email": "anna@example.com",
+            "address": "Storgatan 1, Göteborg",
+            "phone": "+46 70 123 45 67"
+        },
+        {
+            "id": 2,
+            "courseId": 3,
+            "customerName": "Erik Johansson",
+            "email": "erik@example.com",
+            "address": "Kungsgatan 5, Stockholm",
+            "phone": "+46 73 987 65 43"
+        }
     ]
 }

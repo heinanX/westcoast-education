@@ -3,9 +3,7 @@ import { featureCard } from "../../components/featureCard/featureCard.js";
 import { renderHeader } from "../../components/header/header.js";
 import { pageHeader } from "../../components/pageHeader/pageHeader.js";
 import { createElement } from "../../helpers/helpers.js";
-
-renderHeader();
-pageHeader("Courses.", 'https://www.bentley.edu/sites/default/files/2025-08/r52_8594-enhanced-nr.jpeg');
+import { getAllCourses } from "../../../dist/services/courseService.js";
 
 const main = document.querySelector("main");
 
@@ -24,14 +22,6 @@ const populateTopBanner = () => {
     bannerList.append(school);
   });
   main.append(bannerList);
-};
-
-const getData = async () => {
-  const res = await fetch("http://localhost:3000/courses");
-  const data = await res.json();
-  console.log(data);
-
-  return data;
 };
 
 const renderPopularCourses = (courses) => {
@@ -57,8 +47,14 @@ const createCourseList = (courses) => {
 };
 
 const init = async () => {
+  renderHeader();
+  pageHeader(
+    "Courses.",
+    "https://www.bentley.edu/sites/default/files/2025-08/r52_8594-enhanced-nr.jpeg",
+  );
+
   populateTopBanner();
-  const courses = await getData();
+  const courses = await getAllCourses();
   renderPopularCourses(courses);
   createCourseList(courses);
 };

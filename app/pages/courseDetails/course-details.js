@@ -2,17 +2,11 @@ import { renderHeader } from "../../components/header/header.js";
 import { createElement } from "../../helpers/helpers.js";
 import { pageHeader } from "../../components/pageHeader/pageHeader.js";
 import { createApplicationForm } from "../../components/applicationForm/applicationForm.js";
+import { getCourseById } from "../../../dist/services/courseService.js";
 
-renderHeader();
 const main = document.querySelector("main");
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
-
-const getData = async (num) => {
-  const res = await fetch(`http://localhost:3000/courses/${num}`);
-  const data = await res.json();
-  return data;
-};
 
 const renderPageInfo = (data) => {
   const container = createElement("div", { classes: ["cd-container"] });
@@ -69,9 +63,9 @@ const CourseForm = (course) => {
 };
 
 const init = async () => {
-  const data = await getData(id);
-  pageHeader(`${data.title}.`, data.image);
-  renderPageInfo(data);
+  renderHeader();
+  const course = await getCourseById(id);
+  pageHeader(`${course.title}.`, course.image);
+  renderPageInfo(course);
 };
-
 init();
