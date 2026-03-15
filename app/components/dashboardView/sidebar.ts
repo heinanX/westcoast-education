@@ -11,7 +11,7 @@ type Option = {
   func: () => void;
 };
 
-export const createSideBar = (contentArea: HTMLElement) => {
+export const createSidebar = (contentArea: HTMLElement) => {
   const options: Option[] = [
     { method: "Add New Course", func: () => renderAddCourseForm(contentArea) },
     {
@@ -29,10 +29,10 @@ export const createSideBar = (contentArea: HTMLElement) => {
     const listItem: HTMLElement = createElement("li", {
       classes: ["dv-listItem"],
     });
-    const btn: HTMLElement = createElement("button", {
+    const btn = createElement("button", {
       text: o.method,
       classes: ["dv-btn"],
-    });
+    }) as HTMLButtonElement;
     btn.addEventListener("click", o.func);
 
     listItem.append(btn);

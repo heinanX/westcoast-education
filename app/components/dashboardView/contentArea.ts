@@ -14,18 +14,22 @@ export const renderCourseBookings = async (contentArea: HTMLElement) => {
 };
 export const renderUpdateView = (contentArea: HTMLElement) => {
   contentArea.textContent = "";
-  const p = createElement("p", { text: "Update action not implemented" });
+  const p: HTMLElement = createElement("p", {
+    text: "Update action not implemented",
+  });
   contentArea.append(p);
 };
 export const renderDeleteView = (contentArea: HTMLElement) => {
   contentArea.textContent = "";
-  const p = createElement("p", { text: "Delete action not implemented" });
+  const p: HTMLElement = createElement("p", {
+    text: "Delete action not implemented",
+  });
   contentArea.append(p);
 };
 
 export const createContentArea = () => {
-  const section = createElement("section");
-  const p = createElement("p", {
+  const section: HTMLElement = createElement("section");
+  const p: HTMLElement = createElement("p", {
     text: "choose an action you want to perform",
   });
 

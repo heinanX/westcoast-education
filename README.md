@@ -1,26 +1,46 @@
-# westcoastEducation
+# WestCoast Education
 
-Proof of Concept for school assignment - responsive course listing, booking system, and admin dashboard built with vanilla JavaScript, HTML, and CSS.
+A course booking platform for WestCoast Education — an IT education company based on the west coast of Sweden. Built as a Proof of Concept (POC) school assignment.
 
+## About the Project
 
-# Features (Steg 1 + 2)
+The platform consists of two parts:
 
-    Course overview with popular/aktuella listings
+**Step 1 — Public Site**
+A course listing site where visitors can browse available courses, view course details, and book a course in either classroom or remote format.
 
-    Single course details (title, number, days, classroom/online, image, date, booking)
+**Step 2 — Admin Dashboard**
+An admin tool for managing courses and viewing customer bookings, built with TypeScript.
 
-    Booking form (login required, customer details)
+## Tech Stack
 
-    Admin dashboard (add courses, view bookings)
+- Vanilla JavaScript (Step 1)
+- TypeScript (Step 2)
+- HTML & CSS
+- JSON Server (REST API)
 
-# Tech
+## Getting Started
 
-    Vanilla JavaScript
+### Installation
 
-    json-server (fake REST API: npm run dev) <- yet to be added
+```bash
+git clone https://github.com/heinanX/westcoast-education.git
+cd westcoast-education
+npm install
+```
 
-    Responsive design (mobile-first) <- yet to be added
+### Running the Project
 
----
+Start the JSON Server (REST API):
 
-WIP - In progress...
+```bash
+npx json-server db.json
+```
+
+Then open the project with Live Server in VS Code. The API will be available at `http://localhost:3000`.
+
+### Compiling TypeScript
+
+```bash
+npx tsc --watch
+```

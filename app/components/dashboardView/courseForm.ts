@@ -15,21 +15,21 @@ export const courseForm = (contentArea: HTMLElement) => {
   ];
 
   fields.forEach(({ label, type, name }) => {
-    const labelEl: HTMLLabelElement = createElement("label", {
+    const labelEl: HTMLElement = createElement("label", {
       text: label,
       classes: ["form-label"],
     });
-    const input: HTMLInputElement = createElement("input");
+    const input = createElement("input") as HTMLInputElement;
     input.type = type;
     input.name = name;
     labelEl.append(input);
     form.append(labelEl);
   });
 
-  const submitBtn: HTMLButtonElement = createElement("button", {
+  const submitBtn = createElement("button", {
     text: "Add Course",
     classes: ["submit-btn"],
-  });
+  }) as HTMLButtonElement;
   submitBtn.type = "submit";
 
   form.append(submitBtn);
@@ -54,7 +54,7 @@ export const courseForm = (contentArea: HTMLElement) => {
       });
       contentArea.append(success);
     } else {
-      const error = createElement("p", {
+      const error: HTMLElement = createElement("p", {
         text: "Something went wrong, please try again.",
         classes: ["error-msg"],
       });
