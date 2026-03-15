@@ -1,7 +1,7 @@
 export type User = {
-    userId : string
-    username : string
-    address : string
-    email : string
-    phoneNumber : string
-}
+  userId: string;
+  customerName: string;
+  address: string;
+  email: string;
+  phoneNumber: string;
+};

@@ -1,187 +1,187 @@
 {
-    "courses": [
-        {
-            "id": 1,
-            "title": "Web Development Fundamentals",
-            "category": "Web",
-            "days": 13,
-            "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=400",
-            "startDate": "2026-04-15",
-            "availability": "both",
-            "rating": 7.2,
-            "summary": "Learn the core building blocks of the web — HTML, CSS, and JavaScript. Perfect for anyone starting their journey into web development."
-        },
-        {
-            "id": 2,
-            "title": "Graphic Design Basics",
-            "category": "Design",
-            "days": 10,
-            "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400",
-            "startDate": "2026-04-20",
-            "availability": "remote",
-            "rating": 6.4,
-            "summary": "Get hands-on with design principles, typography, and color theory. Build a strong visual foundation for any creative career."
-        },
-        {
-            "id": 3,
-            "title": "Project Management",
-            "category": "Management",
-            "days": 6,
-            "image": "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=400",
-            "startDate": "2026-04-28",
-            "availability": "classroom",
-            "rating": 5.8,
-            "summary": "Master the essentials of planning, executing, and delivering projects on time. Ideal for team leads and aspiring project managers."
-        },
-        {
-            "id": 4,
-            "title": "UX & UI Design",
-            "category": "Design",
-            "days": 12,
-            "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400",
-            "startDate": "2026-05-05",
-            "availability": "both",
-            "rating": 6.9,
-            "summary": "Dive into user experience and interface design. Learn to create intuitive, beautiful products that users love."
-        },
-        {
-            "id": 5,
-            "title": "JavaScript Advanced",
-            "category": "Web",
-            "days": 18,
-            "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=400",
-            "startDate": "2026-05-12",
-            "availability": "remote",
-            "rating": 9.1,
-            "summary": "Take your JavaScript skills to the next level with async programming, design patterns, and modern ES6+ features."
-        },
-        {
-            "id": 6,
-            "title": "Data Analysis with Excel",
-            "category": "Data",
-            "days": 6,
-            "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=400",
-            "startDate": "2026-05-18",
-            "availability": "classroom",
-            "rating": 5.3,
-            "summary": "Learn to analyze, visualize, and interpret data using Excel. A practical course for business professionals and analysts."
-        },
-        {
-            "id": 7,
-            "title": "Digital Marketing",
-            "category": "Marketing",
-            "days": 8,
-            "image": "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=400",
-            "startDate": "2026-05-25",
-            "availability": "both",
-            "rating": 6.1,
-            "summary": "Explore SEO, social media, email campaigns, and paid ads. Build a complete digital marketing strategy from scratch."
-        },
-        {
-            "id": 8,
-            "title": "Cybersecurity Essentials",
-            "category": "Security",
-            "days": 14,
-            "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400",
-            "startDate": "2026-06-02",
-            "availability": "remote",
-            "rating": 8.7,
-            "summary": "Understand threats, vulnerabilities, and how to defend against them. A must-have course for anyone working in tech."
-        },
-        {
-            "id": 9,
-            "title": "Python for Beginners",
-            "category": "Programming",
-            "days": 22,
-            "image": "https://images.unsplash.com/photo-1526379879527-8559ecfcaec0?w=400",
-            "startDate": "2026-06-09",
-            "availability": "both",
-            "rating": 9.4,
-            "summary": "Start programming with one of the world's most popular languages. From basics to building real projects — no prior experience needed."
-        },
-        {
-            "id": 10,
-            "title": "Leadership & Communication",
-            "category": "Management",
-            "days": 6,
-            "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400",
-            "startDate": "2026-06-15",
-            "availability": "classroom",
-            "rating": 5.6,
-            "summary": "Develop the soft skills that make great leaders. Learn how to communicate clearly, motivate teams, and resolve conflict."
-        },
-        {
-            "id": 11,
-            "title": "Cloud Computing with AWS",
-            "category": "Cloud",
-            "days": 14,
-            "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400",
-            "startDate": "2026-06-22",
-            "availability": "remote",
-            "rating": 7.8,
-            "summary": "Get started with Amazon Web Services and learn to deploy, manage, and scale applications in the cloud."
-        },
-        {
-            "id": 12,
-            "title": "React for Developers",
-            "category": "Web",
-            "days": 8,
-            "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400",
-            "startDate": "2026-06-29",
-            "availability": "both",
-            "rating": 8.2,
-            "summary": "Build modern, component-based web applications with React. Covers hooks, state management, and real-world project structure."
-        },
-        {
-            "id": 13,
-            "title": "SEO & Content Strategy",
-            "category": "Marketing",
-            "days": 4,
-            "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=400",
-            "startDate": "2026-07-07",
-            "availability": "remote",
-            "rating": 4.9,
-            "summary": "Learn how to rank on search engines and create content that drives traffic. Great for marketers, bloggers, and business owners."
-        },
-        {
-            "id": 14,
-            "title": "Agile & Scrum",
-            "category": "Management",
-            "days": 3,
-            "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=400",
-            "startDate": "2026-07-14",
-            "availability": "both",
-            "rating": 6.7,
-            "summary": "Learn the Agile mindset and Scrum framework used by top tech teams. Practical tools for delivering better software faster."
-        },
-        {
-            "id": 15,
-            "title": "Photoshop & Illustrator",
-            "category": "Design",
-            "days": 12,
-            "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=400",
-            "startDate": "2026-07-21",
-            "availability": "classroom",
-            "rating": 7.5,
-            "summary": "Master Adobe's industry-standard tools for photo editing and vector graphics. From basic retouching to professional illustrations."
-        }
-    ],
-    "bookings": [
-        {
-            "id": 1,
-            "courseId": 3,
-            "customerName": "Anna Svensson",
-            "email": "anna@example.com",
-            "address": "Storgatan 1, Göteborg",
-            "phone": "+46 70 123 45 67"
-        },
-        {
-            "id": 2,
-            "courseId": 3,
-            "customerName": "Erik Johansson",
-            "email": "erik@example.com",
-            "address": "Kungsgatan 5, Stockholm",
-            "phone": "+46 73 987 65 43"
-        }
-    ]
+  "courses": [
+    {
+      "id": 1,
+      "title": "Web Development Fundamentals",
+      "category": "Web",
+      "days": 13,
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=400",
+      "startDate": "2026-04-15",
+      "availability": "both",
+      "rating": 7.2,
+      "summary": "Learn the core building blocks of the web — HTML, CSS, and JavaScript. Perfect for anyone starting their journey into web development."
+    },
+    {
+      "id": 2,
+      "title": "Graphic Design Basics",
+      "category": "Design",
+      "days": 10,
+      "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400",
+      "startDate": "2026-04-20",
+      "availability": "remote",
+      "rating": 6.4,
+      "summary": "Get hands-on with design principles, typography, and color theory. Build a strong visual foundation for any creative career."
+    },
+    {
+      "id": 3,
+      "title": "Project Management",
+      "category": "Management",
+      "days": 6,
+      "image": "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?w=400",
+      "startDate": "2026-04-28",
+      "availability": "classroom",
+      "rating": 5.8,
+      "summary": "Master the essentials of planning, executing, and delivering projects on time. Ideal for team leads and aspiring project managers."
+    },
+    {
+      "id": 4,
+      "title": "UX & UI Design",
+      "category": "Design",
+      "days": 12,
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400",
+      "startDate": "2026-05-05",
+      "availability": "both",
+      "rating": 6.9,
+      "summary": "Dive into user experience and interface design. Learn to create intuitive, beautiful products that users love."
+    },
+    {
+      "id": 5,
+      "title": "JavaScript Advanced",
+      "category": "Web",
+      "days": 18,
+      "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=400",
+      "startDate": "2026-05-12",
+      "availability": "remote",
+      "rating": 9.1,
+      "summary": "Take your JavaScript skills to the next level with async programming, design patterns, and modern ES6+ features."
+    },
+    {
+      "id": 6,
+      "title": "Data Analysis with Excel",
+      "category": "Data",
+      "days": 6,
+      "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=400",
+      "startDate": "2026-05-18",
+      "availability": "classroom",
+      "rating": 5.3,
+      "summary": "Learn to analyze, visualize, and interpret data using Excel. A practical course for business professionals and analysts."
+    },
+    {
+      "id": 7,
+      "title": "Digital Marketing",
+      "category": "Marketing",
+      "days": 8,
+      "image": "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=400",
+      "startDate": "2026-05-25",
+      "availability": "both",
+      "rating": 6.1,
+      "summary": "Explore SEO, social media, email campaigns, and paid ads. Build a complete digital marketing strategy from scratch."
+    },
+    {
+      "id": 8,
+      "title": "Cybersecurity Essentials",
+      "category": "Security",
+      "days": 14,
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400",
+      "startDate": "2026-06-02",
+      "availability": "remote",
+      "rating": 8.7,
+      "summary": "Understand threats, vulnerabilities, and how to defend against them. A must-have course for anyone working in tech."
+    },
+    {
+      "id": 9,
+      "title": "Python for Beginners",
+      "category": "Programming",
+      "days": 22,
+      "image": "https://images.unsplash.com/photo-1526379879527-8559ecfcaec0?w=400",
+      "startDate": "2026-06-09",
+      "availability": "both",
+      "rating": 9.4,
+      "summary": "Start programming with one of the world's most popular languages. From basics to building real projects — no prior experience needed."
+    },
+    {
+      "id": 10,
+      "title": "Leadership & Communication",
+      "category": "Management",
+      "days": 6,
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400",
+      "startDate": "2026-06-15",
+      "availability": "classroom",
+      "rating": 5.6,
+      "summary": "Develop the soft skills that make great leaders. Learn how to communicate clearly, motivate teams, and resolve conflict."
+    },
+    {
+      "id": 11,
+      "title": "Cloud Computing with AWS",
+      "category": "Cloud",
+      "days": 14,
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400",
+      "startDate": "2026-06-22",
+      "availability": "remote",
+      "rating": 7.8,
+      "summary": "Get started with Amazon Web Services and learn to deploy, manage, and scale applications in the cloud."
+    },
+    {
+      "id": 12,
+      "title": "React for Developers",
+      "category": "Web",
+      "days": 8,
+      "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400",
+      "startDate": "2026-06-29",
+      "availability": "both",
+      "rating": 8.2,
+      "summary": "Build modern, component-based web applications with React. Covers hooks, state management, and real-world project structure."
+    },
+    {
+      "id": 13,
+      "title": "SEO & Content Strategy",
+      "category": "Marketing",
+      "days": 4,
+      "image": "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=400",
+      "startDate": "2026-07-07",
+      "availability": "remote",
+      "rating": 4.9,
+      "summary": "Learn how to rank on search engines and create content that drives traffic. Great for marketers, bloggers, and business owners."
+    },
+    {
+      "id": 14,
+      "title": "Agile & Scrum",
+      "category": "Management",
+      "days": 3,
+      "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=400",
+      "startDate": "2026-07-14",
+      "availability": "both",
+      "rating": 6.7,
+      "summary": "Learn the Agile mindset and Scrum framework used by top tech teams. Practical tools for delivering better software faster."
+    },
+    {
+      "id": 15,
+      "title": "Photoshop & Illustrator",
+      "category": "Design",
+      "days": 12,
+      "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=400",
+      "startDate": "2026-07-21",
+      "availability": "classroom",
+      "rating": 7.5,
+      "summary": "Master Adobe's industry-standard tools for photo editing and vector graphics. From basic retouching to professional illustrations."
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "courseId": 3,
+      "customerName": "Anna Svensson",
+      "email": "anna@example.com",
+      "address": "Storgatan 1, Göteborg",
+      "phone": "+46 70 123 45 67"
+    },
+    {
+      "id": 2,
+      "courseId": 3,
+      "customerName": "Erik Johansson",
+      "email": "erik@example.com",
+      "address": "Kungsgatan 5, Stockholm",
+      "phone": "+46 73 987 65 43"
+    }
+  ]
 }

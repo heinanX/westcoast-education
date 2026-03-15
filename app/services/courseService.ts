@@ -1,4 +1,5 @@
 import { Course, CreateCourse } from "../models/courseModel";
+import { User } from "../models/userModel";
 
 const baseURL: string = "http://localhost:3000";
 
@@ -26,4 +27,10 @@ export const saveCourseToDb = async (newCourse: CreateCourse) => {
   } catch (err) {
     console.log(err);
   }
+};
+
+export const listBookingsByCourse = async (id: string) => {
+  const res = await fetch(`${baseURL}/bookings?courseId=${id}`);
+  const data = (await res.json()) as User[];
+  return data;
 };
